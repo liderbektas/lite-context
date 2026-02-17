@@ -1,0 +1,44 @@
+{
+  "name": "@liderbektas/lite-context",
+  "version": "0.1.0",
+  "description": "A lightweight, type-safe state management solution for React. Built on Context and useSyncExternalStore, it delivers selective re-rendering with zero dependencies — all under 1KB.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "url": ""
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "state-management",
+    "context",
+    "lightweight",
+    "useSyncExternalStore",
+    "selective-rerender",
+    "zero-dependency",
+    "typescript",
+    "hooks",
+    "store",
+    "zustand-alternative",
+    "react-context",
+    "performance"
+  ],
+  "author": "liderbektas",
+  "license": "MIT"
+}
